@@ -1,0 +1,7 @@
+#Adguard Home的信息
+url: http://192.168.8.21:80
+username: admin
+password: admin
+
+##需要更新的domain名称
+domain: kk.vxiaobai.com
