@@ -23,6 +23,6 @@ jobs:
           goos: ${{ matrix.goos }}
           goarch: ${{ matrix.goarch }}
           goversion: 1.20 # 可以指定编译使用的 Golang 版本
-          pre_command: "go get -v -d ./... " #安装所有依赖包
+          pre_command: "go get  ./... " #安装所有依赖包
           binary_name: "addDNS" # 可以指定二进制文件的名称
           extra_files: README.md config.yaml # 需要包含的额外文件
